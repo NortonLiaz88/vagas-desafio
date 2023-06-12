@@ -1,0 +1,12 @@
+version: "3"
+services:
+  api:
+    container_name: api-container
+    build: .
+    image: users-api
+    restart: always
+    command: npm run start
+    volumes:
+      - ./dist:/usr/src/users-api/dist
+    ports:
+      - "3000:3000"
