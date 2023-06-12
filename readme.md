@@ -1,3 +1,15 @@
+# Para testar o que foi desenvolvido utilize.
+Com docker:
+```
+    docker compose up -d 
+```
+Através do npm:
+```
+    npm install
+    npm run start
+```
+
+
 # Este é um teste para desenvolvedores
 
 # possui 5 testes
